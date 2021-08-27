@@ -70,15 +70,15 @@
         <?php 
             foreach($faqs as $faq) { ?>
 
-                <h2><?php echo $faq['question'] ?></h2>
+                <h2 class="accordion"><?php echo $faq['question'] ?></h2>
                 
             
-                <p><?php echo $faq['answer'] ?></p>
+                <div class="panel"><p><?php echo $faq['answer'] ?></p></div>
 
             <?php }
         ?>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
