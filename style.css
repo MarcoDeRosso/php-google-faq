@@ -1,0 +1,8 @@
+*{font-family: 'Hina Mincho', serif; }
+.container{margin: 0 auto;max-width: 1200px;}
+h2{margin-top: 64px;}
+p{font-size: 18px;}
+a { text-decoration: none; color:#3367d6 } 
+a:visited { text-decoration: none; color:#3367d6; }
+a:hover { text-decoration: none; color:#3367d6; }
+a:hover, a:active { text-decoration: none; color:#3367d6 }
